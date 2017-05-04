@@ -21,7 +21,7 @@ Primary use:  Event and Conference Landing age
 05. SECTION: Event Infos
 06. SECTION: Schedule
 07. SECTION: FAQ
-08. SECTION: Sponsors 
+08. SECTION: Sponsors
 09. SECTION: Blog
 10. SECTION: Blog - Single
 11. SECTION: Team
@@ -2402,4 +2402,31 @@ html.safari:after {
 .gecko .price-ticket-item:hover .price-ticket-item-wrapper,
 .gecko .price-ticket-item.hover .price-ticket-item-wrapper {
   transform: rotateY(0deg) !important;
+}
+
+.inverted-section12 {
+  background: url('../img/bgmask2.png') no-repeat center center #3e4651;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: url('../img/bgmask2.png') no-repeat center center #04cd8f;
+}
+.inverted-section12 .title-section {
+  border-bottom-color: #ffffff;
+}
+@media (min-width:992px) {
+  .inverted-section12 .title-section {
+    background: url('../img/title-bg.png') no-repeat left bottom;
+  }
+}
+.inverted-section12 .owl-pagination {
+  margin-top: 30px;
+}
+.inverted-section12 .owl-pagination .owl-page span {
+  background: #ffffff !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.inverted-section12 .owl-pagination .owl-page.active span {
+  background: #04cd8f !important;
 }
